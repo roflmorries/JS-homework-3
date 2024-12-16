@@ -9,7 +9,7 @@ if (numOne > numTwo) {
 else if (numOne < numTwo) {
     console.log(`${numOne} меньше ${numTwo}`);
 }
-else if (numOne === numTwo) {
+else {
     console.log(`${numOne} равно ${numTwo}`);
 }
 
@@ -30,7 +30,7 @@ if (distanceKm > distanceFtToKm) {
 else if (distanceKm < distanceFtToKm) {
     console.log(`${distanceKm} меньше ${distanceFtToKm}`)
 }
-else if (distanceKm === distanceFtToKm) {
+else  {
     console.log(`${distanceKm} равно ${distanceFtToKm}`);
 }
 
